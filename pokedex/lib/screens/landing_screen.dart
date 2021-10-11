@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pokedex/screens/home_screen.dart';
 import 'package:pokedex/utilities/constants.dart';
 
 class landingScreen extends StatelessWidget {
@@ -25,10 +26,26 @@ class landingScreen extends StatelessWidget {
                 "assets/images/Pokedex.png",
                 width: 200.0,
               ),
+              const SizedBox(
+                height: 64.0,
+              ),
             ],
           ),
         ),
       ),
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: () {
+          Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => HomeScreen(),
+              ));
+        },
+        label: Text('GET STARTED',
+            style: TextStyle(color: kDarkGrey, fontWeight: FontWeight.w500)),
+        backgroundColor: kOffWhite,
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 }
