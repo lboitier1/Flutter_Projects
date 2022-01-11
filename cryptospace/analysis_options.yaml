@@ -1,1 +1,24 @@
-include: package:lint/analysis_options.yaml
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    sort_constructors_first: false
+
+    # The new tabs vs. spaces. Choose wisely
+    prefer_single_quotes: false
+    prefer_double_quotes: false
+
+    # Good packages document everything
+    public_member_api_docs: false
+
+    # Blindly follow the Flutter code style, which prefers types everywhere
+    always_specify_types: false
+
+    # Back to the 80s
+    lines_longer_than_80_chars: false
+
+    avoid_catching_errors: false
+
+    constant_identifier_names: false
+
+    sort_pub_dependencies: false

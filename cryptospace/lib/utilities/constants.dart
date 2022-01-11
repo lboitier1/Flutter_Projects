@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const baseUrl = 'api.coincap.io';
+const baseUrl = 'https://api.coincap.io';
 const cryptosPath = '/v2/assets';
 
 const kGreenColor = Color(0xFF21CE99);
