@@ -43,7 +43,6 @@ class _BallState extends State<Ball> {
       child: Center(
         child: TextButton(
           onPressed: () {
-            // int ballNumber = Random().nextInt(6) + 1;
             setState(() {
               ballNumber = Random().nextInt(5) + 1;
             });
