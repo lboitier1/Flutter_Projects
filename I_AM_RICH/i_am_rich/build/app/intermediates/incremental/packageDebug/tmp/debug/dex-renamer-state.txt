@@ -1,0 +1,4 @@
+#Tue Jan 04 16:46:02 CET 2022
+base.0=/Users/lucasboitier/Documents/code/developpement_mobile/some_flutter_projects/I_AM_RICH/i_am_rich/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
