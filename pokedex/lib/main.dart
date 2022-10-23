@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:pokedex/screens/landing_screen.dart';
 
 void main() {
-  runApp(
-    const Pokedex()
-  );
+  runApp(const Pokedex());
 }
 
 class Pokedex extends StatelessWidget {
